@@ -1,0 +1,40 @@
+body {
+  margin-top: 50;
+}
+a {
+  padding-right: 10px;
+  text-decoration: none;
+}
+.collapse {
+  justify-content: flex-end;
+}
+.photo {
+  background-image: url("https://www.macexperts.gr/portfolio/mydesk.jpg");
+  background-repeat: no-repeat;
+  height: 100vh;
+  z-index: -1;
+}
+.hello {
+  background-image: url("https://www.macexperts.gr/portfolio/mydesk.jpg");
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: white;
+  font-size: 22px;
+  padding-left: 15vh;
+  padding-top: 40vh;
+}
+#text-row {
+  height: 520px;
+}
+#work {
+  height: 850px;
+}
+#contact {
+  height: 500px;
+}
+@media only screen and (max-width: 992px) {
+  #text-row,
+  #work {
+    height: auto;
+  }
+}
